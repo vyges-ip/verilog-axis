@@ -1,0 +1,17 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/alexforencich/verilog-axis
+  branch: master
+  commit: 48ff7a7e2ef782cf778d47910cf85835c64b1bce
+import:
+  rtl:
+    - path: "rtl"
+      map_to: "rtl"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: MIT
+  file: LICENSE
